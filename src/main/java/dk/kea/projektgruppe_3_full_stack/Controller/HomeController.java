@@ -4,6 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 public class HomeController {
 
-    // kommentar
+   @GetMapping ("/opretbruger")
+    public String opretBruger () {
+       return "OpretBruger";
+   }
 
 }
