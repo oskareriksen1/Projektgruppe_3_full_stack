@@ -1,3 +1,12 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+    font-size: 1.4em;
+    background-color: #5FD18A;
+}
 .Header .logo img {
     width: 100px;
     height: 100px;
@@ -37,10 +46,7 @@
     display: inline-block;
     margin-left: 20px;
 }
-.Header a:hover {
-    color: black;
-    background-color: transparent;
-}
+
 
 .Header .nav-button a {
     padding: 10px 15px;
@@ -48,6 +54,10 @@
     text-decoration: none;
     color: white;
 }
+.Header a:hover {
+     color: black;
+     background-color: transparent;
+ }
 body {
     margin: 20px auto;
     padding: 20px;
