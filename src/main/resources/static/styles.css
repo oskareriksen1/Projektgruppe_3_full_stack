@@ -1,3 +1,53 @@
+.Header .logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.Header * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Header body {
+    display: flex;
+    justify-content: center;
+    background-color: #5FD18A;
+}
+.Header nav ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 20px;
+}
+.Header nav {
+    display: inline-block;
+    padding: 10px;
+}
+
+.Header nav li {
+    margin-right: 20px;
+
+}
+
+.Header nav li:first-child {
+    margin-right: 0;
+
+}
+
+.Header .nav-button {
+    display: inline-block;
+    margin-left: 20px;
+}
+.Header a:hover {
+    color: black;
+    background-color: transparent;
+}
+
+.Header .nav-button a {
+    padding: 10px 15px;
+    background-color: #5FD18A;
+    text-decoration: none;
+    color: white;
+}
 body {
     margin: 20px auto;
     padding: 20px;
