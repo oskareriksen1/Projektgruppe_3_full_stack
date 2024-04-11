@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: auto;
     padding: 2%;
-    font-size: 1.4em;
+    font-size: 1.6em;
     background-color: #5FD18A;
 }
 
@@ -69,8 +69,7 @@
      background-color: transparent;
  }
 body {
-    margin: 20px auto;
-    padding: 20px;
+   margin: 0;
     background-color: #ffffff;
 
 }
