@@ -141,3 +141,69 @@ body {
 
 
 }
+
+footer {
+    background-color:#5FD18A ;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#5FD18A ;
+    padding: 2%;
+    width: auto;
+}
+
+.Footer .logo img {
+    width: 120px;
+    height: 75px;
+}
+
+.Footer .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+
+}
+.Footer .footer-left img {
+    max-width: 100px;
+}
+
+.Footer .footer-left p {
+    margin: 0;
+}
+
+.Footer .footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.Footer .footer-center {
+    color: white;
+}
+
+.Footer .footer-right ul li {
+    margin-right: 10px;
+    padding-right: 30px;
+}
+
+.Footer .footer-right ul li a {
+    color: white;
+    text-decoration: none;
+}
+.Footer .footer-right a:hover {
+    color: black;
+    background-color: transparent;
+}
+.Footer * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
