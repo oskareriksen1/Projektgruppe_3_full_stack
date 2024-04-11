@@ -7,6 +7,13 @@
     font-size: 1.4em;
     background-color: #5FD18A;
 }
+
+
+.Headerbody {
+    padding: 0;
+    margin:0;
+}
+
 .Header .logo img {
     width: 100px;
     height: 100px;
@@ -21,6 +28,8 @@
     display: flex;
     justify-content: center;
     background-color: #5FD18A;
+    margin: 0;
+    padding:0;
 }
 .Header nav ul {
     list-style: none;
