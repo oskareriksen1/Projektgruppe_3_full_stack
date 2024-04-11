@@ -9,10 +9,7 @@ public class HomeController {
         return "loginside";
     }
 
-@GetMapping("/Header")
-public String Header() {
-    return "Header";
-}
+
 
    @GetMapping ("/opretbruger")
     public String opretBruger () {
