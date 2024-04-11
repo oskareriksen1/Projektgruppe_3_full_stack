@@ -12,11 +12,12 @@
 .Headerbody {
     padding: 0;
     margin:0;
+
 }
 
 .Header .logo img {
     width: 100px;
-    height: 100px;
+    height: 75px;
 }
 
 .Header * {
@@ -71,7 +72,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
-    max-width: 1200px;
+
 }
 
 .box {
