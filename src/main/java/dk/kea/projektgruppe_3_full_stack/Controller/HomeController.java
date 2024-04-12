@@ -1,12 +1,19 @@
 package dk.kea.projektgruppe_3_full_stack.Controller;
-
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.stereotype.Controller;
 
 @Controller
-public class UIcontroller {
+public class HomeController {
+    @GetMapping("/loginside")
+    public String loginside () {
+        return "loginside";
+    }
+
+
+
+   @GetMapping ("/opretbruger")
+    public String opretBruger () {
+       return "OpretBruger";
+   }
 
 }
-@GetMapping("/Forside")
-public String visForside() { return "Forside";}
-
