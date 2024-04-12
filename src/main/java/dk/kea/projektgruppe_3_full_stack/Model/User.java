@@ -1,5 +1,5 @@
 package dk.kea.projektgruppe_3_full_stack.Model;
-
+/*
 public class User {
     private String username;
     private String email;
@@ -38,3 +38,4 @@ public class User {
         this.password = password;
     }
 }
+*/

@@ -15,5 +15,8 @@ public class HomeController {
     public String opretBruger () {
        return "OpretBruger";
    }
-
+   @GetMapping ("/ønskelisten")
+    public String Ønskelisten () {
+        return "Ønskeliste";
+   }
 }

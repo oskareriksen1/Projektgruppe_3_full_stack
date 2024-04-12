@@ -1,5 +1,5 @@
 package dk.kea.projektgruppe_3_full_stack.Controller;
-
+/*
 import dk.kea.projektgruppe_3_full_stack.Model.User;
 import dk.kea.projektgruppe_3_full_stack.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,3 +38,4 @@ public class UserController {
         }
     }
 }
+*/

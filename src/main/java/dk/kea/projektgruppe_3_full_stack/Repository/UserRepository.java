@@ -1,13 +1,17 @@
 package dk.kea.projektgruppe_3_full_stack.Repository;
-
+/*
 import dk.kea.projektgruppe_3_full_stack.Model.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 
+import javax.sql.DataSource;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
@@ -34,4 +38,14 @@ public class UserRepository {
         int count = jdbcTemplate.queryForObject(sql, Integer.class, username, password);
         return count == 1;
     }
+    @Configuration
+    @SpringBootApplication
+    public class MyApplicationConfig {
+
+        @Bean
+        public JdbcTemplate jdbcTemplate(DataSource dataSource) {
+            return new JdbcTemplate(dataSource);
+        }
+    }
  }
+*/
