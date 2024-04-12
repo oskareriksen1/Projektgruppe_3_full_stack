@@ -207,3 +207,20 @@ footer {
     margin: 0;
     box-sizing: border-box;
 }
+
+.Forside .container .p1 {
+    text-align: left;
+}
+
+.Forside .container .p2 {
+    text-align: right;
+}
+
+.Forside .container .p3 {
+    text-align: left;
+}
+
+.Forside .container .p4 {
+    text-align: center;
+}
+
