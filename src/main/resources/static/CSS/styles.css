@@ -151,12 +151,16 @@ footer {
     bottom: 0;
 }
 .Footer {
+    position: absolute;
+    bottom:0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:#5FD18A ;
     padding: 2%;
     width: auto;
+
+
 }
 
 .Footer .logo img {
@@ -222,5 +226,44 @@ footer {
 
 .Forside .container .p4 {
     text-align: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+
+    text-align: center;
+
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 14px;
+    align-content: space-between;
+
+}
+.card .button-container {
+    display: flex;
+}
+
+.card button:hover {
+    opacity: 0.7;
 }
 
