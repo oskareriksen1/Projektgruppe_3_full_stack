@@ -227,26 +227,39 @@ footer {
 .Forside .container .p4 {
     text-align: center;
 }
-.card {
+.Ønskeside .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
+    width:225px;
+    margin:1%;
 
     text-align: center;
 
 }
-.card-container {
+.Ønskeside .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
 }
 
-.price {
+.Ønskeside .price {
     color: grey;
     font-size: 22px;
 }
-
-.card button {
+.Ønskeside{
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.Ønskeside .nytønske .plus img {
+    width: 125px;
+    height: 125px;
+}
+.Ønskeside .nytønske {
+    padding-top: 30px;
+}
+.Ønskeside .card button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -259,11 +272,11 @@ footer {
     align-content: space-between;
 
 }
-.card .button-container {
+.Ønskeside .card .button-container {
     display: flex;
 }
 
-.card button:hover {
+.Ønskeside .card button:hover {
     opacity: 0.7;
 }
 
