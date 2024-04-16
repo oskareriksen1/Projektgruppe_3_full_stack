@@ -224,9 +224,41 @@ footer {
     text-align: left;
 }
 
+.Forside {
+    background: #FFFFFF;
+}
 .Forside .container .p4 {
     text-align: center;
 }
+
+.Forside .tekst {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.Forside .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Forside .section img {
+    max-width: 40%;
+    height: auto;
+}
+
+    @media screen and (max-width: 768px) {
+        .Forside .section {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        Forside. section img {
+            max-width: 100%;
+    }
+}
+
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
