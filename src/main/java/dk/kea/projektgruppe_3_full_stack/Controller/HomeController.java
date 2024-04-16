@@ -9,6 +9,11 @@ public class HomeController {
         return "loginside";
     }
 
+    @GetMapping ("/opretoenske")
+    public String opretoenske () {
+        return "opretoenske";
+    }
+
 
 
    @GetMapping ("/opretbruger")
