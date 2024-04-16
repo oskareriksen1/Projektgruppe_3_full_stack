@@ -14,13 +14,14 @@
         <h1>Tailored Jeans</h1>
         <p class="price">$19.99</p>
         <p>Some text about the jeans.</p>
-        <p><button>Reserver</button><button>Besøg siden</button></p>
+        <p><button onclick="changeButton()">Reserver</button><button>Besøg siden</button></p>
+
     </div>
     <div class="card">
         <div class="nytønske">
             <nav>
 
-                        <div class="plus"><a href="#">
+                        <div class="plus"><a href="http://localhost:8080/opretoenske">
                             <img src="../static/Images/plus_tegn.jpg" th:src="@{images/plus_tegn.jpg}" alt="Tilføj ønske">
                         </a>
                         </div>
@@ -31,5 +32,15 @@
     </div>
 </div>
 <div th:replace="~{Footer :: Footer}"></div>
+<script>
+    function changeButton() {
+
+        const reserveButton = document.querySelector(".card button");
+
+
+        reserveButton.style.backgroundColor = "grey";
+        reserveButton.textContent = "Reserveret";
+    }
+</script>
 </body>
 </html>
